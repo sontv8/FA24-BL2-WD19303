@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   const useState = (initialValue) => {
+      //     let state = initialValue;
+      //     const getState = () => {
+      //       return state;
+      //     };
+
+      //     const setState = (newValue) => {
+      //       state = newValue;
+      //     };
+
+      //     return [getState, setState];
+      //   };
+      //   const [count, setCount] = useState(10); //[function]
+      //   setCount(20);
+      //   console.log(count()); //10
+
+      const myNumber = [1, 2, 3];
+      //   function
+      //   method
+
+      const newData = myNumber.map((item, index) => {
+        return `<h2>${item}</h2>`;
+      });
+      console.log("Data moi:", newData);
+    </script>
+  </body>
+</html>
